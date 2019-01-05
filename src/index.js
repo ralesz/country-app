@@ -6,6 +6,7 @@ import store from './store';
 import routes from './routes';
 import DevTools from './DevTools.js';
 import { getCountries } from '../src/actions/actions-countries';
+import './country.css';
 
 render(
   <Provider store={store}>
